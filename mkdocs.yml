@@ -1,4 +1,25 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
+# Name of the site - DO NOT EDIT
+site_name: Woodinville Technology Student Association
+# Site URL
+site_url: https://nornfang058.github.io/TSA-website/
+
+# Thematic settings for website
 theme:
+  # Name of theme - DO NOT EDIT
   name: material
+  # Controls theme
+  palette:
+    # Controls the website's primary color
+    primary: custom
+    # Controls the website's secondary or accent color
+    accent: custom
+    # Color theme: default for light mode, slate for dark mode
+    scheme: default
+  # Controls website fonts
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+# CSS for custom coloring
+extra_css:
+  - stylesheets/extra.css
