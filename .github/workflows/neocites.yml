@@ -20,6 +20,8 @@ jobs:
     - name: Install dependencies
       run: |
         pip install mkdocs-material
+        pip install mkdocs-material-extensions --upgrade
+        pip install pillow cairosvg --upgrade
 
     - name: Build the site
       run: mkdocs build
