@@ -70,7 +70,7 @@ plugins:
   - search
   - tags
   - social:
-      card_layout_options:
+      cards_layout_options:
         logo: docs/assets/logo.png
         background_image: docs/assets/graphic.png
         background_color: transparent
