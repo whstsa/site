@@ -20,7 +20,7 @@ theme:
   # Custom HTML for overriding default MkDocs settings
   custom_dir: overrides
   # Website logo
-  logo: assets/favicon.ico
+  logo: assets/logo.png
   # Website favicon
   favicon: assets/favicon.ico
   # Controls theme
@@ -70,10 +70,14 @@ plugins:
   - search
   - tags
   - rss:
-      match_path: "blog/posts/.*"
+      enabled: !ENV [CI, false]
+      match_path: blog/posts/.* 
       date_from_meta:
-        as_creation: date.created
-        as_update: date.updated
+        as_creation: date
+      categories:
+        - categories
+        - tags
+      comments_path: "#__comments"
   - glightbox
 
 hooks:
