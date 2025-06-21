@@ -2,3 +2,11 @@
   --md-primary-fg-color: #000000;
   --md-accent-fg-color: #046A38;
 }
+
+.md-grid {
+  max-width: 900px; 
+}
+
+.twemoji {
+  color: #ffc400;
+}

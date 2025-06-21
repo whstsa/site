@@ -60,7 +60,7 @@ extra_css:
 copyright: Copyright &copy; 2025 - Woodinville Technology Student Association
 
 repo_url: https://github.com/whstsa/site
-repo_name: nornfang058/woodinvilleTSA
+repo_name: whstsa/site
 
 plugins:
   - blog:

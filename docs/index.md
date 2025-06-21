@@ -4,8 +4,50 @@ hide:
     - navigation
 ---
 
-# Welcome to the official website of the **Woodinville TSA** club!
+# <span style="color: green;"><strong>Welcome to the Woodinville TSA club!</strong></span>
+The <strong>Technology Student Association</strong> (TSA) at Woodinville High School is a student-led organization that empowers future leaders in STEM (Science, Technology, Engineering, and Math) through competitive events, teamwork, leadership training, and real-world challenges.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[News and updates](blog/index.md){ .md-button } [Learn more about our club](about.md){ .md-button .md-button--primary }
+
+<br>
+
+## What sets us apart from other clubs at WHS?
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Lorem Ipsum__
+
+    ---
+
+    Lorem ipsum dolor sit amet consectetur adipiscing elit POTATO POTATO.
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __Lorem Ipsum__
+
+    ---
+
+    Lorem ipsum dolor sit amet consectetur adipiscing elit POTATO POTATO.
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Lorem Ipsum__
+
+    ---
+
+    Lorem ipsum dolor sit amet consectetur adipiscing elit POTATO POTATO.
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Lorem Ipsum__
+
+    ---
+
+    Lorem ipsum dolor sit amet consectetur adipiscing elit POTATO POTATO.
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
+
 
 
