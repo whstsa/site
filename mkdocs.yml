@@ -1,7 +1,7 @@
 # Name of the site - DO NOT EDIT
 site_name: Woodinville TSA Club
 # Site URL
-site_url: https://nornfang058.github.io/woodinvilleTSA/
+site_url: https://whstsa.github.io/site/
 # Site description
 site_description: The official website of the Woodinville Technology Student Association
 
@@ -47,7 +47,7 @@ theme:
 
 # Homepage settings
 extra:
-  homepage: https://nornfang058.github.io/woodinvilleTSA/
+  homepage: https://whstsa.github.io/site/
   social:
     - icon: fontawesome/brands/discord
       name: Official Woodinville TSA Discord
@@ -59,7 +59,7 @@ extra_css:
 
 copyright: Copyright &copy; 2025 - Woodinville Technology Student Association
 
-repo_url: https://github.com/nornfang058/woodinvilleTSA
+repo_url: https://github.com/whstsa/site
 repo_name: nornfang058/woodinvilleTSA
 
 plugins:
