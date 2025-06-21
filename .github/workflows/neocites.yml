@@ -1,0 +1,37 @@
+name: Deploy MkDocs site to Neocites
+
+on:
+  push:
+    branches: [main]  # Change this if you deploy from another branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install mkdocs-material
+
+    - name: Build the site
+      run: mkdocs build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GH_TOKEN }}
+        publish_dir: ./site
+
+    - name: Deploy to Neocities
+      run: |
+        find . -type f -exec curl -s -H "Authorization: Bearer ${{ secrets.NEOCITIES_API_KEY }}" \
+          -F "file=@{}" https://neocities.org/api/upload \;
+      working-directory: ./site
