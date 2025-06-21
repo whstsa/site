@@ -73,10 +73,6 @@ plugins:
       cards_layout_options:
         logo: docs/assets/logo.png
         background_image: docs/assets/graphic.png
-        background_color: transparent
-
-hooks:
-  - hooks/socialmedia.py
 
 markdown_extensions:
   - attr_list
@@ -85,3 +81,6 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
